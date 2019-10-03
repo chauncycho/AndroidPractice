@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/label_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="账号"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/input_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="输入账号"
+        android:background="@drawable/input_bg"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/label_passwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="密码"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/input_passwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="输入密码"
+        android:background="@drawable/input_bg"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"/>
+</LinearLayout>
